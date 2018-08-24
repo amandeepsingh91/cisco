@@ -4,7 +4,7 @@
 # Setup
 Create database to fetch the information from malware urls.
 
-#first we need to clone our repository
+# first we need to clone our repository
  git clone <repository>
 # create environment, which could ne containerized and perform the tasks as given below
  pyvenv codingchallange
@@ -12,9 +12,9 @@ Create database to fetch the information from malware urls.
  source bin/activate
  pip install requirements.txt
 # Setup the database
-#basically we can use relational or non-relational database here
+basically we can use relational or non-relational database here
     sqlite3 service.db
-#import the csv format into db
+# import the csv format into db
     .mode csv service
     .import service.csv service
 # Now Run urlservice.py
